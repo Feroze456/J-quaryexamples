@@ -1,0 +1,5 @@
+1. UI APPLICATION for sms gate way
+2. UI APPLICATION to display image on title section of web page
+3. Design a UI APPLICATION to load student id, name, source, in a json file and json file shoud be stored in local storage
+4. develop UI APPLICATION to disable previous dates using j-query only todays date and forward dates should be enabled
+5. Create an UI APPLICATION to order an with text-box newly create web page when we click on add row new text field

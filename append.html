@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    </head>
+    <style>
+    
+    div { padding:5px;}
+    </style>
+    
+    
+    
+<body>
+
+
+<input type="button" id="more_fields" onclick="add_fields();" value="Add More" />
+
+       <div id="room_fileds">
+           <div>
+            <div class='label'>Text Field</div>
+            <div class="content">
+              <Input type="text">
+            </div>
+           </div>
+        </div>
+  
+</body>
+<script>
+var room = 1;
+function add_fields() {
+    room++;
+    var objTo = document.getElementById('room_fileds')
+    var divtest = document.createElement("div");
+    divtest.innerHTML = '<div class="label"> <input type="text" </div>';
+    
+    objTo.appendChild(divtest)
+}
+        
+    </script>
+        
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+</html>
